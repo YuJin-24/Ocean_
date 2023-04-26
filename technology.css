@@ -1,0 +1,11 @@
+@import url(main_color.css);
+
+.technology_test_img img {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15%;
+    height: 60%;
+    width: 80%
+
+}

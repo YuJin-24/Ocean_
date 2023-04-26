@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar_style.css">
+    <link rel="stylesheet" href="technology.css">
     <link rel="stylesheet" href="main_container_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/8a85919537.js" crossorigin="anonymous"></script>
+    <script src="technology.js" defer></script>
     <script src="main.js" defer></script>
-    <title>ocean</title>
+    <title>Technology</title>
 </head>
 <body>
     <nav class="navbar">
@@ -34,22 +36,17 @@
         </a>
     </nav>
 
-    <article class="container">
-        <div class="main_write">
-            <p>Oceanix Busan</p>
-            <div class="main_write_">오셔닉스 부산은 지속 가능하고, 적응 가능하며, 확장이 가능합니다. 
-                에너지, 물, 음식, 폐기물의 문제를 해결하고 지속 가능하게 살아갈 수 있는 도시를 만듭니다.</div>
-            <div class="main_write_box">
-                <a href="technology.html">자세히 알아보기</a>
-            </div>
-        </div>
-        <div class="main_image">
-            
+    <article>
+        <div class="technology_test_img">
+            <img id="technology_img" src="image/technology_test_img1.png" alt="">
+            <script type="text/javascript">
+                technology_img.onclick = function(){
+                        technology_img.src ="image/technology_test_img2.png";
+                }
+            </script>
+  
         </div>
     </article>
     
 </body>
-<footer>
-    <div>ⓒ Copyright 2022 Oceanix USA Inc.</div>
-</footer>
 </html>

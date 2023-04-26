@@ -1,0 +1,116 @@
+@import url(main_color.css);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.explore_map {
+    display: flex;
+    margin: 150px 0px;
+    padding: 0px 15%;
+    justify-content: space-between;
+    height: 50%;
+}
+
+
+.explore_maintext {
+    word-wrap: break-word;
+    text-align: left;
+    flex: 1;
+    justify-content: left;
+    align-content: space-between;
+    margin-top: 5%;
+}
+
+.explore_maintext h5 {
+    letter-spacing: -1px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.explore_maintext p {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.explore_map_img {
+    margin-left: 10%;
+    justify-content: right;
+    flex: 2;
+}
+
+.explore_map_img img {
+    width: 100%;
+    float: right;
+    min-width: 1000px;
+}
+
+.explore_background_blue_img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block; 
+    border: 0"
+}
+
+
+.building1, .building2, .building3 {
+    background-color: var(--mainblue-color);
+    color: white;
+    display: flex;
+    padding: 400px 15%;
+    justify-content: center;
+    height: 50%;
+}
+.building_text {
+    width: 800px;
+    height: 650px;
+    border: solid 1px var(--point-color);
+    padding-top: 50px;
+    min-width: 700px;
+}
+.building_img {
+    width: 700px;
+    height: 650px;
+    padding-top: 50px;
+    border: solid 1px var(--point-color);
+    text-align: center;
+    min-width: 700px;
+}
+
+.building h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.building p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+    .explore_map{
+        flex-wrap: wrap;
+    }
+
+    .explore_maintext{
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .explore_maintext p {
+        font-size: 30px;
+    }
+
+
+    .explore_map_img{
+        margin-left: 0;
+    }
+
+    .building1, .building2, .building3 {
+        flex-wrap: wrap;
+    }
+}
