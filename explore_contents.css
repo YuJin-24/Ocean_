@@ -18,21 +18,17 @@ body {
     margin: 80px auto;
     padding: 0px 20%;
     justify-content: space-between;
-
 }
 
 
 .explore_maintext {
+
     word-wrap: break-word;
     text-align: left;
-    flex: 1;
-    justify-content: left;
-    align-content: space-between;
-    margin-top: 5%;
-    position: absolute;
-    left: 10%;
-    bottom: 320px;
-    margin-bottom: 360px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    min-width: 200px;
 }
 
 .explore_maintext h5 {
@@ -139,20 +135,31 @@ footer div{
     }
 
     .explore_map{
+        margin-left: 0;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
     }
 
     .explore_maintext{
         margin-left: 0;
-        margin-bottom: 200px;
+        margin-top: 0;
+        margin-bottom: 50px;
         min-width: 800px;
     }
 
 
     .explore_map_img{
         margin-left: 0;
+        margin-top: 50px;
         width: 80%;
-        min-width: 900px;
+        min-width: 1000px;
+        padding-left: 0%;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
     }
 
     .build_img {
