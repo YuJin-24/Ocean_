@@ -1,14 +1,14 @@
 @import url(main_color.css);
 
 .container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: right;
-    align-content: end;
-    margin: 8% 10% 0% 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    align-content: center;
+
 }
 
-.container div, p {
+.container p {
     margin: 20px 0px 0px 0px;
     justify-content: center;
     border: none 1px black;
@@ -18,13 +18,14 @@
 .main_write {
     border: none 1px black;
     width: 700px;
-    height: 600px;
+    height: 300px;
     justify-content: center;
     flex-wrap: wrap;
+    display: block;
     align-items: flex-start;
     color: var(--mainblue-color);
-    font-size: 20px;
-    padding-right: 70px;
+    font-size: 13px;
+    padding-right: 35px;
 }
 
 .main_write_ {
@@ -35,47 +36,44 @@
 
 .main_write p {
     letter-spacing: -2.2px;
-    font-size: 70px;
-    font-weight: bolder;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 70px 0px 15px 0px;
-    justify-content: left;
-}
-.main_write_box {
-    width: 300px;
-    height: 70px;
-    background-color: var(--main-color);
     font-size: 25px;
     font-weight: bold;
-    margin: 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 20px 0px 5px 0px;
     justify-content: left;
+	line-height: 50px;
+}
+.main_write_box {
+	display: inline-block;
+    background-color: var(--main-color);
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
     border-radius: 30px/30px;
     text-align: center;
-    line-height: 70px;
+
 }
 .main_write_box a{
     color: white;
 }
 
-.main_image {
-    border: none 1px black;
-    width: 1450px;
-    height: 700px;
-    background-image: url(image/main_map.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-width: 1000px;
-    justify-content: center;
-    flex-wrap: wrap;
+.container>img {
+	width: 1300px;
+	height: auto;
+	align-items: center;
+	text-align: center;
 }
+
+
 
 footer div {
     display: flex;
     justify-content: center;
-    align-content: flex-end;
+    align-items: flex-end;
     margin-top: 100px;
     margin-bottom: 20px;
     color: rgb(206, 206, 206);
+    font-size: 12px;
 }
 
 .main_write_box:hover {
@@ -93,9 +91,5 @@ footer div {
     }
     .main_image {
         margin: 30px 0px 0px 0px;
-    }
-
-    footer div {
-        margin-top: 20px;
     }
 }

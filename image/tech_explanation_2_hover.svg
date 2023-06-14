@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 373.5 373.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1c27;
+        font-family: YDIYGO320, YDIYGO320;
+        font-size: 8px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #ffc649;
+      }
+
+      .cls-3 {
+        stroke: #1a1c27;
+      }
+
+      .cls-4 {
+        stroke-width: 5px;
+      }
+
+      .cls-5 {
+        fill: #ffc649;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        fill: #f7f7f7;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-7" width="373.5" height="373.5"/>
+    </clipPath>
+  </defs>
+  <g id="_레이어_12" data-name="레이어 12">
+    <g>
+      <g>
+        <rect class="cls-7" width="373.5" height="373.5"/>
+        <g class="cls-6">
+          <g>
+            <g>
+              <path class="cls-3" d="m181.83,151.6s-30.81,40.07-28.74,74.95c1.95,32.95,28.74,32.35,28.74,32.35"/>
+              <path class="cls-3" d="m181.99,151.6s30.81,40.07,28.74,74.95c-1.95,32.95-28.74,32.35-28.74,32.35"/>
+            </g>
+            <g>
+              <path class="cls-2" d="m182.04,293.5c-45.84,0-83-37.16-83-83,0-18.53,6.07-35.65,16.34-49.46l3.16,16.96"/>
+              <line class="cls-2" x1="115.38" y1="161.04" x2="99.04" y2="164.16"/>
+            </g>
+            <g>
+              <path class="cls-2" d="m180.24,127.2c45.82-1.26,83.99,34.87,85.24,80.69.51,18.53-5.09,35.8-14.98,49.89l-3.62-16.87"/>
+              <line class="cls-2" x1="250.51" y1="257.79" x2="266.75" y2="254.22"/>
+            </g>
+            <circle class="cls-5" cx="186.54" cy="249" r="4"/>
+            <path class="cls-4" d="m194.54,243.58s10-10.58,7-23.58"/>
+            <g>
+              <g>
+                <path class="cls-2" d="m147.88,117.53s-11.33,14.73-10.56,27.55c.72,12.11,10.56,11.89,10.56,11.89"/>
+                <path class="cls-2" d="m147.94,117.53s11.33,14.73,10.56,27.55c-.72,12.11-10.56,11.89-10.56,11.89"/>
+              </g>
+              <circle class="cls-5" cx="150.71" cy="152.97" r=".74"/>
+              <path class="cls-2" d="m152.55,151.34s3.68-3.89,2.57-8.67"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text class="cls-1" transform="translate(56.63 320.35)"><tspan x="0" y="0">필터를 이용해 바다의 물을 사용할 수 있으며, 이용한 모든 물은 재활용됩니다.</tspan><tspan x="17.14" y="9.6">이를 통해 모듈 내에서 물을 자유롭게 수급하고 이용할 수 있습니다.</tspan></text>
+    </g>
+  </g>
+</svg>

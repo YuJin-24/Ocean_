@@ -1,11 +1,269 @@
 @import url(main_color.css);
 
-.technology_test_img img {
-    margin-top: 15%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 15%;
-    height: 60%;
-    width: 80%
+a {
+    text-decoration: none;
+    color: #F7F7F7;
+}
 
+.navbar {
+    background-color: var(--mainblue-color);
+}
+
+.navbar_logo a {
+    color: white;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(image/explore_background_bluesquare.png);
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+
+}
+.tech_map {
+    background-color: var(--mainblue-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech_main_map {
+    justify-content: left;
+    width: 60%;
+    margin-top: 90px;
+    float: center;
+    min-width: 1000px;
+}
+
+
+
+.tech_maintext{
+    margin: auto;
+    padding-top: 200px;
+}
+
+.tech_maintext h5 {
+    letter-spacing: -1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.tech_maintext p {
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+
+
+.explore_background_blue_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #F7F7F7;
+}
+
+
+.person_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 500px auto 50px auto;
+    font-size: 18px;
+    color: var(--mainblue-color);
+}
+.person {
+    background-color: #F7F7F7;
+    text-align: center;
+    align-items: center;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+    width: 800px;
+
+}
+.banner img {
+    width: 50%;
+    min-width: 800px;
+    max-width: 100%;
+    align-items: center;
+    opacity: 1;
+}
+
+
+.banner span.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    font-size: 18px;
+    color: var(--mainblue-color);
+    font-weight: bold;
+    text-align: center;
+}
+.banner::before, .banner::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 95%;
+    transform: translate(-50%,-50%);
+    transition: all .8s;
+}
+.banner::before {
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    width: 0;
+}
+.banner::after {
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    width: 0;
+}
+
+.banner:hover span.text {display: block;}
+.banner:hover::before {width:95%}
+.banner:hover::after {height: 95%;}
+.banner:hover {
+    background-image: url(image/explore_person_focus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .8s ease;
+}
+.banner:hover img.banner_img {opacity: 0;}
+
+
+
+
+.explanation_text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 500px auto 0px auto;
+}
+
+.explanation_text p, h1 {
+    margin: 1 auto;
+}
+.explanation_text h1 {
+    font-size: 18px;
+    color: var(--mainblue-color);
+}
+.explanation_text p {
+    font-size: 12px;
+    color: var(--gray-color);
+}
+
+.explanation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.explanation img {
+    width: 600px;
+    height: 600px;
+    opacity: 1;
+}
+
+.explanation p {
+    color: var(--mainblue-color);
+    display: inline-block;
+}
+
+.explanation img:hover {
+    opacity: 0; 
+    transition: all 0.7s ease;
+}
+
+.explanation div {
+    width: 610px;
+    height: 610px;
+}
+
+.explanation1 {
+    background-image: url(image/tech_explanation_1_hover.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;    
+}
+
+.explanation2 {
+    background-image: url(image/tech_explanation_2_hover.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+
+.explanation3 {
+    background-image: url(image/tech_explanation_3_hover.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+
+
+
+.last_line_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 500px auto 200px auto;
+    font-size: 18px;
+    color: var(--mainblue-color);
+}
+
+
+.last_line {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.last_line_top {
+    background-color: var(--lightwhite-color);
+}
+
+.last_line_middle {
+
+    display: flex;
+    margin: 0 auto;
+    background-image: url(image/tech_last.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.blank {
+
+    height: 600px;
+
+}
+
+footer {
+    background-color: var(--mainblue-color);
+    padding: 5px 0 20px 0;
+    color: rgb(206, 206, 206);
+    font-size: 12px;
+}
+
+.go_top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: var(--gray-color);
+    color: #F7F7F7;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .tech_maintext{
+        padding-top: 0px;
+    }
 }

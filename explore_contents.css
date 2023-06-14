@@ -1,14 +1,24 @@
 @import url(main_color.css);
 
+.navbar_logo a {
+    color: white;
+    background-color: var(--mainblue-color);
+}
+a {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--mainblue-color);
 }
 .explore_map {
     display: flex;
-    margin: 150px 0px;
-    padding: 0px 15%;
+    margin: 80px auto;
+    padding: 0px 20%;
     justify-content: space-between;
-    height: 50%;
+
 }
 
 
@@ -19,78 +29,114 @@ body {
     justify-content: left;
     align-content: space-between;
     margin-top: 5%;
+    position: absolute;
+    left: 10%;
+    bottom: 320px;
+    margin-bottom: 360px;
 }
 
 .explore_maintext h5 {
     letter-spacing: -1px;
-    font-size: 90px;
+    font-size: 25px;
     font-weight: bold;
+    color: var(--main-color);
 }
 
 .explore_maintext p {
-    font-size: 35px;
+    font-size: 12px;
     font-weight: normal;
+    color: white;
 }
 
 .explore_map_img {
     margin-left: 10%;
-    justify-content: right;
-    flex: 2;
+    padding-left: 10%;
+    justify-items: right;
+    width: 100%;
 }
 
 .explore_map_img img {
-    width: 100%;
-    float: right;
+    float: center;
     min-width: 1000px;
 }
 
 .explore_background_blue_img {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    display: block; 
-    border: 0"
+    display: block;
+    background-color: #F7F7F7;
 }
 
 
-.building1, .building2, .building3 {
-    background-color: var(--mainblue-color);
-    color: white;
-    display: flex;
-    padding: 400px 15%;
+.build1, .build2, .build3 {
+    background-color: #F7F7F7;
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 200px 15%;
     justify-content: center;
     height: 50%;
+    color: var(--mainblue-color);
 }
-.building_text {
+.build1 img{
+    padding-top: 300px;
+
+}
+.build_text {
     width: 800px;
-    height: 650px;
-    border: solid 1px var(--point-color);
-    padding-top: 50px;
+    height: 250px;
     min-width: 700px;
+    margin: 0 auto;
 }
-.building_img {
-    width: 700px;
-    height: 650px;
-    padding-top: 50px;
-    border: solid 1px var(--point-color);
-    text-align: center;
+.build_img {
+    width: 85%;
+    margin: 100px auto 50px auto;
     min-width: 700px;
 }
 
-.building h3 {
-    font-size: 30px;
+.text2 {
+    font-size: 16px;
     font-weight: bold;
+    color: var(--mainblue-color);
 }
 
-.building p {
-    font-size: 20px;
+.build1, .build2, .build3 p {
+    font-size: 12px;
     font-weight: normal;
+    color: var(--gray-color);
+}
+
+.text1 {
+    font-size: 11px;
+    color: var(--point-color);
 }
 
 
+footer div{
+    color: rgb(206, 206, 206);
+    font-size: 12px;
+}
+
+.go_top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: var(--gray-color);
+    color: #F7F7F7;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+}
 
 @media screen and (max-width: 1500px) {
+    .navbar_menu a {
+        color: white;
+    }
+
+    .navbar_icons {
+        color: white;
+    }
 
     .explore_map{
         flex-wrap: wrap;
@@ -98,19 +144,22 @@ body {
 
     .explore_maintext{
         margin-left: 0;
-        margin-top: 0px;
-        margin-bottom: 100px;
-    }
-    .explore_maintext p {
-        font-size: 30px;
+        margin-bottom: 200px;
+        min-width: 800px;
     }
 
 
     .explore_map_img{
         margin-left: 0;
+        width: 80%;
+        min-width: 900px;
     }
 
-    .building1, .building2, .building3 {
-        flex-wrap: wrap;
+    .build_img {
+        min-width: 900px;
+    }
+
+    .build1, .build2, .build3 {
+        flex-wrap: nowrap;
     }
 }

@@ -15,6 +15,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar_logo">
+            <img src="icon/oceanix_logo(re).png"  height="30px"></src>
             <a href="index.html">Oceanix Busan</a>
         </div>
 
@@ -22,7 +23,6 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="technology.html">Technology</a></li>
             <li><a href="explore.html">Explore</a></li>
-            <li><a href="">Contact</a></li>
         </ul>
 
         <ul class="navbar_icons">
@@ -39,42 +39,191 @@
             <h5>Explore<br>
                 Oceanix Busan!
             <p>
-                이미지를 눌러 오셔닉스 부산의 건물을 확인하세요!
+                오셔닉스 부산의 건물을 확인하세요!
             </p>
             </h5>
         </div>
-        <div class="explore_map_img">
-            <img src="image/explore_map.png" alt="">
+
+        <img src="image/explore_map(re).png" class="explore_map_img" alt="">
+
+    </article>
+
+    <img src="image/explore_background_blue2.png" class="explore_background_blue_img"  alt="">
+
+
+
+
+
+
+    <article class="build1">
+                <img src="image/explore_build1.png" class="build_img">
+                <div class="build_text">
+                    <h3 class="text2">숙박 플랫폼</h3>
+                    <p>관광객을 위한 에코 숙박 플랫폼입니다. 항구가 보이는 객실과 유기농 식당, 공용 테라스, 옥상의 화려한 
+                        온실 공간을 제공합니다. 워터프론트 경치가 잘 보이는 긴 옥상은 환경 친화적인 지역의 식당으로 운영됩니다.</p>
+                    <br>
+                    <p class="text1">정보<br>
+                       건물 높이: 20m<br>
+                       단계: 1 - 5<br>
+                       면적: 6,500m2
+                    </p>
+                </div>
+    </article>
+
+
+
+    <div class="line" style=background-color:#f7f7f7>
+        <svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 619 702.5">
+            <defs>
+              <style>
+                .cls-1 {
+                  stroke: #00fde1;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1px;
+                }
+          
+                
+
+                .cls-1, .cls-2 {
+                  fill: none;
+                }
+              </style>
+
+            </defs>
+            <g id="line">
+              <g>
+                <line class="cls-1" x1="309.5" y1="1" x2="309.5" y2="701.5"/>
+                <rect class="cls-2" y="1" width="619" height="700"/>
+              </g>
+            </g>
+          </svg>
+
+          
+          <script>
+            const content1 = document.querySelector('.line')
+            const path1 = document.querySelector('.cls-1')
+            const path1Length = path1.getTotalLength()
+
+            path1.style.strokeDasharray = path1Length
+            path1.style.strokeDashoffset = calcDashoffset(window.innerHeight*0.8, content1, path1Length)
+
+            function calcDashoffset(scrollY, element, length) {
+                const ratio = (scrollY - element.offsetTop) / element.offsetHeight
+                const value = length - (length * ratio)
+                return value < 0 ? 0 : value > length ? length : value
+            }
+
+            function scrollHandler() {
+                const scrollY = window.scrollY + (window.innerHeight * 0.8)
+                path1.style.strokeDashoffset = calcDashoffset(scrollY, content1, path1Length)
+            }
+
+
+            window.addEventListener('scroll', scrollHandler)
+          </script>
+
+    </div>
+
+
+
+    <article class="build2">
+        <img src="image/explore_build2.png" class="build_img">
+        <div class="build_text">
+            <h3 class="text2">연구 플랫폼</h3>
+            <p>공동 작업과 해양 연구를 위한 플랫폼입니다. 1층 입구는 겨울을 보내기 위한 공동 정원으로 온도 조절이 가능한
+                중앙 아트리움을 통해 부산의 추운 겨울동안 모두가 즐길 수 있는 휴식 공간을 제공하고, 음식을 재배합니다.
+            </p>
+            <br>
+            <p class="text1">정보<br>
+               건물 높이: 25m<br>
+               단계: 5<br>
+               면적: 10,500m2
+            </p>
         </div>
     </article>
 
-    <img src="image/explore_background_blue.png" class="explore_background_blue_img"  alt="">
-    <article class="building1">
-            <div class="building_text">
-                <h3>건물 이름</h3>
-                <p>건물 설명</p>
-            </div>
-            <div class="building_img">
-                <p>건물 이미지</p>
+
+
+    <div class="line2" style=background-color:#f7f7f7>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 619 702.5">
+            <defs>
+              <style>
+                .cls-3 {
+                  stroke: #00fde1;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1px;
+                }
+          
+                
+
+                .cls-3, .cls-4 {
+                  fill: none;
+                }
+              </style>
+
+            </defs>
+            <g id="line2">
+              <g>
+                <line class="cls-3" x1="309.5" y1="1" x2="309.5" y2="701.5"/>
+                <rect class="cls-4" y="1" width="619" height="700"/>
+              </g>
+            </g>
+          </svg>
+
+          
+          <script>
+            const content2 = document.querySelector('.line2')
+            const path2 = document.querySelector('.cls-3')
+            const path2Length = path2.getTotalLength()
+
+            path2.style.strokeDasharray = path2Length
+            path2.style.strokeDashoffset = calcDashoffset(window.innerHeight*0.8, content2, path2Length)
+
+            function calcDashoffset(scrollY, element, length) {
+                const ratio = (scrollY - element.offsetTop) / element.offsetHeight
+                const value = length - (length * ratio)
+                return value < 0 ? 0 : value > length ? length : value
+            }
+
+            function scrollHandler() {
+                const scrollY = window.scrollY + (window.innerHeight * 0.8)
+                path2.style.strokeDashoffset = calcDashoffset(scrollY, content2, path2Length)
+            }
+
+
+            window.addEventListener('scroll', scrollHandler)
+          </script>
+
+    </div>
+
+
+
+
+    <article class="build3">
+        <img src="image/explore_build3.png" class="build_img">
+        <div class="build_text">
+            <h3 class="text2"> 생활 플랫폼</h3>
+            <p> 해양도시의 지속 가능한 생활을 위한 공간을 제공하는 플랫폼입니다. 주거용 건물 중심부에 지역 문화를 위한 시설을 
+                마련하여 이웃 간의 교류를 장려합니다.
+            </p>
+            <br>
+            <p class="text1" style="color: #FFC649;">정보<br>
+                건물 높이: 20m<br>
+                단계: 4 - 5<br>
+                면적: 8,500m2
+             </p>
+        </div>
     </article>
 
-    <article class="building2">
-        <div class="building_text">
-            <h3>건물 이름</h3>
-            <p>건물 설명</p>
-        </div>
-        <div class="building_img">
-            <p>건물 이미지</p>
-    </article>
+    <a href="" class="go_top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
 
-    <article class="building3">
-        <div class="building_text">
-            <h3>건물 이름</h3>
-            <p>건물 설명</p>
-        </div>
-        <div class="building_img">
-            <p>건물 이미지</p>
-    </article>
 
 </body>
+<footer>
+    <div>ⓒ Copyright 2023 Yimyujin All pictures cannot be copied without permission.</div>
+</footer>
 </html>

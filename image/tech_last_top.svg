@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 619 67">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #1a1c27;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .75px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="619" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="tech_last">
+    <g class="cls-1">
+      <g>
+        <polygon class="cls-3" points="145 7 145 13.27 193.36 61.64 226 61.64 273.32 14.32 273.32 7 145 7"/>
+        <line class="cls-3" x1="273.32" y1="14.32" x2="145" y2="13.27"/>
+        <polyline class="cls-3" points="195.24 61.64 195.24 66.82 222 66.82 222 61.64"/>
+      </g>
+    </g>
+  </g>
+</svg>
